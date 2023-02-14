@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:gainsboro;
+    outline: none;
+    font-family: sans-serif;
+} /*universal selector, is used to select all items in an HTML file*/
+.calculator{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    background-color:purple;
+    padding: 15px; /* Add padding to this element */
+    border-radius: 25px;
+    box-shadow: inset 5px 5px 12px dimgray,
+                      5px 5px 12px dimgray;
+    display: grid;
+    grid-template-columns: repeat(4,69px);             
+}
+
+/* Extra style for the input element*/
+input{
+    grid-column: span 4;
+    height: 60px;
+    width: 260px;
+    background-color:dimgrey;
+    box-shadow: inset -3px -3px 12px white,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;   
+    border-radius: 30px; 
+    color:turquoise;
+    font-size: 35px;
+    text-align: end;
+    margin: auto;
+   padding: 20px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button{
+    height: 35px;
+    width:35px;
+    background-color:thistle;
+    box-shadow: inset -5px -5px 12px white,
+                inset 5px 5px  12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
